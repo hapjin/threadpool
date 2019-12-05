@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43c09adf-a9fa-4a44-9d1d-f2325f273ea6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -43,7 +42,7 @@
           <entry key="dummy" value="15" />
           <entry key="gitignore" value="5" />
           <entry key="java" value="1547" />
-          <entry key="md" value="575" />
+          <entry key="md" value="669" />
           <entry key="xml" value="20" />
         </counts>
       </usages-collector>
@@ -51,7 +50,7 @@
         <counts>
           <entry key="Git file" value="5" />
           <entry key="JAVA" value="1547" />
-          <entry key="Markdown" value="575" />
+          <entry key="Markdown" value="669" />
           <entry key="PLAIN_TEXT" value="15" />
           <entry key="XML" value="20" />
         </counts>
@@ -96,19 +95,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="252">
-                <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <first_editor relative-caret-position="438">
+                <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/MonitorTextThreadPoolExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -252,8 +242,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5" />
-    <option name="y" value="358" />
+    <option name="x" value="-50" />
+    <option name="y" value="439" />
     <option name="width" value="1936" />
     <option name="height" value="777" />
   </component>
@@ -341,7 +331,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/test/java/com/textml/threadpool/ResizingTextThreadPoolExecutorTest.java" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575513412433" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575514139708" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -359,7 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ResizingTextThreadPoolExecutorTest">
+  <component name="RunManager" selected="Maven.threadpool-spring-boot-starter-autoconfigurer [install]">
     <configuration name="ResizingTextThreadPoolExecutorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.textml.threadpool.ResizingTextThreadPoolExecutorTest" />
       <module name="threadpool-spring-boot-starter-autoconfigurer" />
@@ -421,14 +411,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="threadpool-spring-boot-starter-autoconfigurer [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="JUnit.TextThreadPoolTest.testRunnableAutoRestart" />
       <item itemvalue="JUnit.TextThreadPoolTest.testLoggingDuration" />
       <item itemvalue="JUnit.TextThreadPoolTest.testResizingQueueThreadPoolExecutor" />
       <item itemvalue="Application.ResizingTextThreadPoolExecutorTest" />
+      <item itemvalue="Maven.threadpool-spring-boot-starter-autoconfigurer [install]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Maven.threadpool-spring-boot-starter-autoconfigurer [install]" />
         <item itemvalue="Application.ResizingTextThreadPoolExecutorTest" />
         <item itemvalue="JUnit.TextThreadPoolTest.testResizingQueueThreadPoolExecutor" />
         <item itemvalue="JUnit.TextThreadPoolTest.testLoggingDuration" />
@@ -480,13 +497,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12301000" />
+    <option name="totallyTimeSpent" value="13037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -495,8 +512,8 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2733189" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3177874" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.26384366" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3170467" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26384366" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -509,11 +526,11 @@
       <window_info anchor="bottom" id="LuaCheck" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.12846482" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.12846482" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.195629" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.195629" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -839,8 +856,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="252">
-            <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <first_editor relative-caret-position="438">
+            <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>

@@ -11,3 +11,17 @@
     - 
 4. 支持优先级任务队列。
 5. 更灵活的任务拒绝策略。如果采用有界的LinkedBlockingQueue，任务队列满时会导致任务拒绝；若采用无界队列LinkedTransferQueue，任务一直堆积又导致内存OOM或者不能及时处理任务。那么，能不能为任务定义一个属性(force execution)，强制执行的任务一定能入队列成功从而不会被拒绝？
+
+
+## How To
+mvn install 到本地仓库,然后项目中导入依赖即可
+```html
+    <dependency>
+      <groupId>com.yy.textml.threadpool</groupId>
+      <artifactId>threadpool-spring-boot-starter</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>
+```
+
+## Reference
+ElasticSearch 6.x 线程池模块
