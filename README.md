@@ -23,5 +23,93 @@ mvn install 到本地仓库,然后项目中导入依赖即可
     </dependency>
 ```
 
+### examples
+1. 记录任务的执行时间，参考：com.textml.threadpool.runnable.TextTimedRunnable
+```java
+/**
+ * @author psj
+ * @date 2019/11/26
+ */
+public class TextThreadPoolTest {
+    private static final Random random = new Random();
+
+    /**
+     * 任务失败自动重启
+     */
+    @Test
+    public void testRunnableAutoRestart() {
+
+        TextThreadPool threadPool = new TextThreadPool();
+        TextAbstractRunnable restartRunnable = new TextAbstractRunnable() {
+            @Override
+            public boolean isForceExecution() {
+                return true;
+            }
+
+            @Override
+            public void onFailure(Exception t) {
+                throw new RuntimeException("", t);
+            }
+
+            @Override
+            public void doRun() throws Exception {
+                //模拟任务执行耗时
+                System.out.println("restartRunnable start...");
+                sleepMills(2000);
+                //模拟程序Runnable过程中出现了异常
+                throw new RuntimeException("something unknown happen");
+            }
+        };
+        threadPool.executor(TextThreadPool.Names.GENERIC).execute(restartRunnable);
+        //
+        try {
+            Thread.currentThread().join();
+        } catch (InterruptedException e) {
+
+        }
+    }
+
+    /**
+     * 记录任务的执行时间
+     */
+    @Test
+    public void testLoggingDuration() {
+        //测试记录任务的执行时间
+        TextThreadPool threadPool = new TextThreadPool();
+        TextTimedRunnable timedRunnable = new TextTimedRunnable(new TextAbstractRunnable() {
+            @Override
+            public void onFailure(Exception t) {
+
+            }
+
+            @Override
+            public void doRun() throws Exception {
+                System.out.println("timed runnable start...");
+                sleepMills(randInt(1000, 3000));
+            }
+        });
+
+        threadPool.executor(TextThreadPool.Names.SINGLE).execute(timedRunnable);
+        //
+        try {
+            Thread.currentThread().join();
+        } catch (InterruptedException e) {
+
+        }
+    }
+
+    private static void sleepMills(long mills) {
+        try {
+            TimeUnit.MILLISECONDS.sleep(mills);
+        } catch (InterruptedException e) {
+            //ignore
+        }
+    }
+    public static int randInt(int min, int max) {
+        return random.ints(min, (max + 1)).limit(1).findFirst().getAsInt();
+    }
+}
+```
+
 ## Reference
 ElasticSearch 6.x 线程池模块

@@ -17,14 +17,16 @@
     <session id="360477558">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="39" />
+          <entry key="java" value="40" />
           <entry key="md" value="1" />
           <entry key="xml" value="3" />
         </counts>
@@ -32,7 +34,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="39" />
+          <entry key="JAVA" value="40" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -42,7 +44,7 @@
           <entry key="dummy" value="15" />
           <entry key="gitignore" value="5" />
           <entry key="java" value="1547" />
-          <entry key="md" value="669" />
+          <entry key="md" value="712" />
           <entry key="xml" value="20" />
         </counts>
       </usages-collector>
@@ -50,7 +52,7 @@
         <counts>
           <entry key="Git file" value="5" />
           <entry key="JAVA" value="1547" />
-          <entry key="Markdown" value="669" />
+          <entry key="Markdown" value="712" />
           <entry key="PLAIN_TEXT" value="15" />
           <entry key="XML" value="20" />
         </counts>
@@ -58,16 +60,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/test/java/com/textml/threadpool/ResizingTextThreadPoolExecutorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="168">
               <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1834#1835#0" expanded="true" />
-                <element signature="e#1879#1880#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,16 +76,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/test/java/com/textml/threadpool/TextThreadPoolTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1281">
-              <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+            <state relative-caret-position="426">
+              <caret line="91" column="1" lean-forward="true" selection-start-line="9" selection-end-line="91" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#2384#2385#0" expanded="true" />
-                <element signature="e#2466#2467#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +89,16 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="438">
-                <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+              <first_editor relative-caret-position="516">
+                <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+                <folding>
+                  <element signature="e#420#421#0" expanded="true" />
+                  <element signature="e#463#464#0" expanded="true" />
+                  <element signature="e#534#535#0" expanded="true" />
+                  <element signature="e#599#600#0" expanded="true" />
+                  <element signature="e#2145#2146#0" expanded="true" />
+                  <element signature="e#2227#2228#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -106,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/PrioritizedTextThreadPoolExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="2121">
               <caret line="113" selection-start-line="113" selection-end-line="120" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -118,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/FixedExecutorBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
+            <state relative-caret-position="168">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
@@ -127,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/TextThreadPoolExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
+            <state relative-caret-position="2394">
               <caret line="122" column="9" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -141,7 +143,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/queue/TextResizableBlockingQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="693">
               <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
             </state>
           </provider>
@@ -150,7 +152,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/queue/TextSizeBlockingQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="3066">
               <caret line="160" column="13" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
             </state>
           </provider>
@@ -159,12 +161,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/ResizingTextThreadPoolExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="116" column="46" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
+            <state relative-caret-position="357">
+              <caret line="98" column="44" lean-forward="true" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
               <folding>
                 <element signature="e#3193#3194#0" expanded="true" />
                 <element signature="e#3262#3263#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/runnable/TextTimedRunnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -227,25 +238,14 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="threadpool-spring-boot-starter-autoconfigurer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="threadpool-spring-boot-starter-autoconfigurer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-50" />
-    <option name="y" value="439" />
-    <option name="width" value="1936" />
-    <option name="height" value="777" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -253,6 +253,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,6 +301,16 @@
               <item name="threadpool" type="462c0819:PsiDirectoryNode" />
               <item name="threadpool-spring-boot-starter-autoconfigurer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
+              <item name="runnable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="threadpool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
+              <item name="threadpool-spring-boot-starter-autoconfigurer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -324,14 +335,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/test/java/com/textml/threadpool/ResizingTextThreadPoolExecutorTest.java" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575514139708" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575976882938" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -464,6 +474,8 @@
       <option name="presentableId" value="Default" />
       <updated>1575444038946</updated>
       <workItem from="1575444041054" duration="10547000" />
+      <workItem from="1575860745274" duration="16000" />
+      <workItem from="1575976698785" duration="200000" />
     </task>
     <servers />
   </component>
@@ -497,13 +509,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13037000" />
+    <option name="totallyTimeSpent" value="13916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -512,13 +524,13 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2733189" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3170467" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3170467" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26384366" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.19761129" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2931596" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
@@ -530,7 +542,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.195629" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.073027715" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -645,13 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/runnable/TextTimedRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -722,13 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/queue/TextSizeBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="160" column="13" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/exception/TextRejectedExecutionException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -743,68 +741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/TextThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="122" column="9" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2390#2391#0" expanded="true" />
-            <element signature="e#2438#2439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/queue/TextResizableBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/ResizingTextThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="116" column="46" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
-          <folding>
-            <element signature="e#3193#3194#0" expanded="true" />
-            <element signature="e#3262#3263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/test/java/com/textml/threadpool/ResizingTextThreadPoolExecutorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1879#1880#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/test/java/com/textml/threadpool/TextThreadPoolTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1281">
-          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#2384#2385#0" expanded="true" />
-            <element signature="e#2466#2467#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,23 +769,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/FixedExecutorBuilder.java">
+    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/MonitorTextThreadPoolExecutor.java" />
+    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/test/java/com/textml/threadpool/ResizingTextThreadPoolExecutorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/MonitorTextThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="168">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/PrioritizedTextThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state relative-caret-position="2121">
           <caret line="113" selection-start-line="113" selection-end-line="120" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -853,11 +790,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/FixedExecutorBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/queue/TextResizableBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/queue/TextSizeBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3066">
+          <caret line="160" column="13" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/TextThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2394">
+          <caret line="122" column="9" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2390#2391#0" expanded="true" />
+            <element signature="e#2438#2439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/ResizingTextThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="98" column="44" lean-forward="true" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
+          <folding>
+            <element signature="e#3193#3194#0" expanded="true" />
+            <element signature="e#3262#3263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/test/java/com/textml/threadpool/TextThreadPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="91" column="1" lean-forward="true" selection-start-line="9" selection-end-line="91" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadpool-spring-boot-starter-autoconfigurer/src/main/java/com/textml/threadpool/runnable/TextTimedRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="438">
-            <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <first_editor relative-caret-position="516">
+            <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+            <folding>
+              <element signature="e#420#421#0" expanded="true" />
+              <element signature="e#463#464#0" expanded="true" />
+              <element signature="e#534#535#0" expanded="true" />
+              <element signature="e#599#600#0" expanded="true" />
+              <element signature="e#2145#2146#0" expanded="true" />
+              <element signature="e#2227#2228#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
