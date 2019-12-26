@@ -111,5 +111,41 @@ public class TextThreadPoolTest {
 }
 ```
 
+2. 优化线程池的执行模式、
+JDK默认线程池Executors：newFix 和 newSingle 创建的线程池任务队列长度是无界队列。newCache 创建的线程池创建线程个数是Integer.MAX_VALUE
+
+当线程池的 core pool size 与 max pool size 不相等时，线程池执行任务的模式如下：
+当线程个数小于 core pool size时，创建新线程执行任务，当线程个数创建到 core pool size个时，再有任务的到来，就会入任务队列排队等待。直到任务队列满了时，才会继续创建新线程直到max pool size个。此后，再有任务到来，就会被拒绝。
+这种执行模式不能较好地利用CPU线程核数，并且对于长时间执行的任务（或者需要阻塞任务）不太友好。
+com.textml.threadpool.queue.TextExecutorScalingQueue.offer
+```java
+    /**
+     * LinkedTransferQueue 是无界队列, 重写offer方法 使之能够支持 core pool size 和 max pool size
+     * 这样保证线程池优先创建 max pool size 个线程处理任务,后续的任务就入队列等待
+     * @param e
+     * @return
+     */
+    public boolean offer(E e) {
+        //first try to transfer to a waiting worker thread
+        //如果线程池中有空闲线程tryTransfer立即成功
+        if (!tryTransfer(e)) {
+         //检查线程池是否还可以继续创建新线程
+            int leftThread = threadPoolExecutor.getMaximumPoolSize() - threadPoolExecutor.getCorePoolSize();
+            if (leftThread > 0) {
+                //线程池还可以继续创建线程,因此返回false触发新建线程
+                //{@see java.util.concurrent.ThreadPoolExecutor.addWorker}
+                return false;
+            }else {
+                return super.offer(e);
+            }
+        }else {
+            return true;
+        }
+    }
+```
+
+
+
+
 ## Reference
 ElasticSearch 6.x 线程池模块
