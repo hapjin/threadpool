@@ -22,6 +22,7 @@ mvn install 到本地仓库,然后项目中导入依赖即可
       <version>1.0.0-SNAPSHOT</version>
     </dependency>
 ```
+如果是spring boot 项目，直接 @Autowired 注入TextThreadPool即可。参考：com.textml.threadpool.TextThreadPoolAutoConfiguration
 
 ### examples
 1. 记录任务的执行时间，参考：com.textml.threadpool.runnable.TextTimedRunnable
